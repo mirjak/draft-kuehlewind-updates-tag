@@ -1,6 +1,6 @@
 ---
-title: Re-definition of the Update Tag
-abbrev: Upadte Tag Definition
+title: Definition of new tags for relations between RFCs
+abbrev: New Tag Definitions
 docname: draft-kuehlewind-update-tag-latest
 date:
 category: bcp
