@@ -36,7 +36,7 @@ The metadata of an RFC can include a tag called "Updates" which can be used to
 link a new RFC to an existing RFC. On publication of such an RFC, the existing
 RFC will include an additional metadata tag called "Updated by" which provides a
 link to the new RFC. However, this tag pair is not well-defined and therefore it
-is currently used for multiple different cases, which leads to confusion about
+is currently used for multiple different purposes, which leads to confusion about
 the actual meaning of this tag and inconsistency in its use.
 
 This document recommends the discontinuation of the use of the updates/updated
@@ -47,38 +47,38 @@ meanings and use cases.
 
 # Introduction
 
-In metadata of an RFC can include a tag called "Updates" which can be used to
+The metadata of an RFC can include a tag called "Updates" which can be used to
 link a new RFC to an existing RFC. On publication of such an RFC, the existing
 RFC will include an additional metadata tag called "Updated by" which provides a
 link to the new RFC. However, this tag pair is not well-defined and therefore it
-is currently used for multiple different cases, which leads to confusion about
+is currently used for multiple different purposes, which leads to confusion about
 the actual meaning of this tag and inconsistency in its use.
 
-The "Updates/Updates by" tag pair is currently used by different groups and
-different areas in which apply different meanings to it and also different
-assumption about any obligations for implementors. While updating an RFC never
+The "Updates/Updates by" tag pair is currently used by different working groups and
+different areas, which tend to apply different meanings to it. They also differ greatly 
+about the obligations on the implementors of the Updated RFC. While updating an RFC never
 makes the updated RFC invalid, updates can contain bug fixes or critical changes.
 Some groups apply the update tag only to these kind of changes with the
-expectation that new implementors are also obligated to implement this new
-RFC. However, the update tag is not defined in any such binding way while it of
-course in some cases would be desirable to add at "mandatory-to-implement"
-indication to an exiting RFC.
+expectation that new implementors are also obliged to implement this new
+RFC. Some other groups use the update tag to define optional extensions or use of extension
+points in the current protocol. This disconnect leads to a situation where it is desirable 
+to add at "mandatory-to-implement" indication to an existing RFC.
 
 Groups or individuals that apply such restrictive conditions to the updates tag,
 consequently usually don't use the update tag for any extensions or addition to
 a protocol. However, as there is no other way in the current metadata scheme to
-link a new RFC to an existing RFC, not using the updates tag, makes it harder to
+link a new RFC to an existing RFC, not using the updates tag makes it harder to
 find these new RFCs. While new implementors might well benefit from some
 extensions or additions, they might not be aware of them and ether not use them
 or, in the worst case, implement a proprietary mechanism instead.
 
 Currently the Updates/Updated by tag pair mainly provides a way to link two
-documents. While the cases mentioned above clearly benefit from such a linkage
-which the expectation that reads of one RFC as least look or also read the other
-RFC, there are more cases where such a linkage could be useful to generate
-awareness but without any implication on the importance of the linked document.
-As assumptions about the use of the updates tag are not clear, often it is not
-used in such cases.
+documents. The cases mentioned above clearly benefit from such a linkage
+which the expectation that readers of one RFC as least look or also read the other
+RFC. Additionally, there are more cases where such a linkage could be useful to improve
+awareness of some newer related technology without providing any indication on the 
+importance of the linked document. As the conditions for the use of the updates tag 
+are not clear, often it is not used in such cases.
 
 This document recommends the discontinuation of the use of the Updates/Updated
 by tag pair, and instead proposes three new tag pairs that have well-defined
@@ -107,24 +107,24 @@ related loosely but do not fit either of the above categories. The main
 intention of this tag is to provide a forward reference from the existing RFC to
 the RFCs that may be of interest to read.
 
-These three tag MUST only be used for the defined meaning, mostly with respect
-to the implication on implementation requirements. However, this document does
+These three tags MUST only be used for the defined meanings, mostly with respect
+to the implication on implementation requirements. This document does
 not mandate the use of these tags if one of the described use cases apply. Tags
 are optional metadata that are meant to help understanding an RFC and navigate
 the RFC series, however, they do not have normative implications on the
-specification within the RFC.
+protocol specification within the RFC.
 
 # Additional Recommendation
 
 ## Discontinuation of the Use of Updates/Updated by
 
-While this document does not declare the updates tag as obsolete, it gives a
-strong recommendation to not use it any more in new RFC. However, the
-Updates/Updated by tag pair will remain in existing document and there is no
-planned effort currently to change these metadata in order to apply the new tags
+While this document does not declare the updates tag obsolete, it gives a
+strong recommendation to no longer use it for new IETF stream documents. 
+However, the Updates/Updated by tag pair will remain in existing documents 
+and there is no plans to change these metadata in order to apply the new tags
 instead. Any such change would need working group consensus as it might not be
-straight forward in all cases. Further just replacing the tag would not be
-sufficient, as also RFC that currently do not have an updates tag would probably
+straight forward in all cases. Further, simply replacing the tag would not be
+sufficient, as also RFCs that currently do not have an updates tag would probably
 qualify to have one of the new tags defined in this document.
 
 ## Amendments
