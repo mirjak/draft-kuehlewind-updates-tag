@@ -62,28 +62,36 @@ Some groups apply the update tag only to these kind of changes with the
 expectation that new implementors are also obliged to implement this new
 RFC. Some other groups use the update tag to define optional extensions or use of extension
 points in the current protocol. This disconnect leads to a situation where it is desirable 
-to add at "mandatory-to-implement" indication to an existing RFC.
+to add a "mandatory-to-implement" indication to an existing RFC.
 
-Groups or individuals that apply such restrictive conditions to the updates tag,
+Groups or individuals that apply such restrictive conditions to the Updates tag,
 consequently usually don't use the update tag for any extensions or addition to
 a protocol. However, as there is no other way in the current metadata scheme to
-link a new RFC to an existing RFC, not using the updates tag makes it harder to
-find these new RFCs. While new implementors might well benefit from some
-extensions or additions, they might not be aware of them and ether not use them
-or, in the worst case, implement a proprietary mechanism instead.
+link a new RFC to an existing RFC, not using the Updates tag makes it harder to
+find these new RFCs. While implementors might well benefit from some
+extensions or additions, they might not be aware of them and either not use them
+or, in the worst case, implement an alternate mechanism instead.
 
 Currently the Updates/Updated by tag pair mainly provides a way to link two
 documents. The cases mentioned above clearly benefit from such a linkage
 which the expectation that readers of one RFC as least look or also read the other
 RFC. Additionally, there are more cases where such a linkage could be useful to improve
 awareness of some newer related technology without providing any indication on the 
-importance of the linked document. As the conditions for the use of the updates tag 
+importance of the linked document. As the conditions for the use of the Updates tag 
 are not clear, often it is not used in such cases.
 
 This document recommends the discontinuation of the use of the Updates/Updated
 by tag pair, and instead proposes three new tag pairs that have well-defined
 meanings and use cases.
 
+# Requirements Language
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
+NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED",
+"MAY", and "OPTIONAL" in this document are to be interpreted as
+described in BCP 14 [RFC2119] [RFC8174] when, and only when, they
+appear in all capitals, as shown here.
+      
 # New Definitions
 
 Based on the problems identified above this document defines three new tag pairs
@@ -110,16 +118,23 @@ the RFCs that may be of interest to read.
 These three tags MUST only be used for the defined meanings, mostly with respect
 to the implication on implementation requirements. This document does
 not mandate the use of these tags if one of the described use cases apply. Tags
-are optional metadata that are meant to help understanding an RFC and navigate
-the RFC series, however, they do not have normative implications on the
-protocol specification within the RFC.
+are optional metadata that are useful to understand the context of RFCs and navigate
+the RFC series.
 
-# Additional Recommendation
+# Additional Recommendations
 
 ## Discontinuation of the Use of Updates/Updated by
 
-While this document does not declare the updates tag obsolete, it gives a
-strong recommendation to no longer use it for new IETF stream documents. 
+[NOTE: This is open for discussion and we would like opinions on 
+whether the use of Updates needs to be discontinued for all future 
+documents or not. This requires further discussion with the 
+RFC Editor and the other stream managers to see if we can have a 
+unified policy for all streams]
+
+This document makes the updates tag obsolete for future use: it MUST NOT
+be used in new IETF stream documents.  The new tags are to be used
+instead, beginning with the publication of this document as an RFC.
+
 However, the Updates/Updated by tag pair will remain in existing documents 
 and there is no plans to change these metadata in order to apply the new tags
 instead. Any such change would need working group consensus as it might not be
@@ -151,5 +166,11 @@ For the See Also/See Also tag pair, additional information of the linked RFC may
 be added in the introduction but there is no expectation to name these RFC in
 the abstract.
 
+# Future work
+
+There will be a need to update the RFC Style Guide [RFC7322] (and specifically Section 4.1.4.) 
+in order to discuss the new tags if and when this document is published.
+
 # Acknowledgments
 
+The authors would like to thank Alexey Melnikov, Alvaro Retana, Barry Leiba, Eric Vyncke, Heather Flanagan, Martin Vigoureux and Sandy Ginoza for their reviews and comments that improved this document. 
