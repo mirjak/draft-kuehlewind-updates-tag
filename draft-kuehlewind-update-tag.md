@@ -47,7 +47,7 @@ meanings and use cases.
 
 # Introduction
 
-The metadata of an RFC can include a tag called "Updates" which can be used to
+An RFC can include a tag called "Updates" which can be used to
 link a new RFC to an existing RFC. On publication of such an RFC, the existing
 RFC will include an additional metadata tag called "Updated by" which provides a
 link to the new RFC. However, this tag pair is not well-defined and therefore it
