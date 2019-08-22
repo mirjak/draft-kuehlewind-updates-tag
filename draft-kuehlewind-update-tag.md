@@ -121,6 +121,20 @@ not mandate the use of these tags if one of the described use cases apply. Tags
 are optional metadata that are useful to understand the context of RFCs and navigate
 the RFC series.
 
+This document does not impose any restrictions on the status or maturity level of
+the RFC that uses these new tags in relation the RFC that gets amended/extended.
+Further, no restrictions are made on the use of these tags across RFC streams.
+However, it is expected that some cases are less likely, as e.g. that an IETF-stream
+RFC gets amended by an RFC from any other stream. Examples exist where non
+IETF-stream documents update IETF-stream document, however, these updates usually
+utilize an existing extension point and therefore use of "Extends" would be expected
+in future, e.g. RFC 3579 (RADIUS Support For EAP) which is a document on the
+Independent Submission Stream updates RFC 2869 (RADIUS Extensions), an IETF stream
+document. In fact, this new, more clear definition of tags could even lead to
+an increase in cross stream usage of the "Extends" tag (if adopted by other
+streams, which is still open for discussion and may be reflected in future versions
+of this document).
+
 # Additional Recommendations
 
 ## Discontinuation of the Use of Updates/Updated by
