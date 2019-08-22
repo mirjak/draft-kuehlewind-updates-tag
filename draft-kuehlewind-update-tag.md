@@ -32,7 +32,7 @@ informative:
 
 --- abstract
 
-The metadata of an RFC can include a tag called "Updates" which can be used to
+An RFC can include a tag called "Updates" which can be used to
 link a new RFC to an existing RFC. On publication of such an RFC, the existing
 RFC will include an additional metadata tag called "Updated by" which provides a
 link to the new RFC. However, this tag pair is not well-defined and therefore it
@@ -137,10 +137,11 @@ instead, beginning with the publication of this document as an RFC.
 
 However, the Updates/Updated by tag pair will remain in existing documents 
 and there is no plans to change these metadata in order to apply the new tags
-instead. Any such change would need working group consensus as it might not be
-straight forward in all cases. Further, simply replacing the tag would not be
-sufficient, as also RFCs that currently do not have an updates tag would probably
-qualify to have one of the new tags defined in this document.
+instead. Any such change would require changing/updating/amending the RFC
+carrying th "Updates" tag and building consensus for such a change might also not
+be straight forward in all cases. Further, simply replacing the tag would any way
+not be sufficient, as also RFCs that currently do not have an updates tag would
+probably qualify to have one of the new tags defined in this document.
 
 ## Amendments
 
@@ -168,9 +169,12 @@ the abstract.
 
 # Future work
 
-There will be a need to update the RFC Style Guide [RFC7322] (and specifically Section 4.1.4.) 
-in order to discuss the new tags if and when this document is published.
+There will be a need to update the RFC Style Guide [RFC7322] (and specifically
+Section 4.1.4.) in order to discuss the new tags if and when this document is
+published.
 
 # Acknowledgments
 
-The authors would like to thank Alexey Melnikov, Alvaro Retana, Barry Leiba, Eric Vyncke, Heather Flanagan, Martin Vigoureux and Sandy Ginoza for their reviews and comments that improved this document. 
+The authors would like to thank Alexey Melnikov, Alvaro Retana, Barry Leiba,
+Eric Vyncke, Heather Flanagan, Martin Vigoureux, Brian Carpenter and Sandy
+Ginoza for their reviews and comments that improved this document. 
