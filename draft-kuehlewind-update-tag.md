@@ -123,12 +123,13 @@ are optional metadata that are useful to understand the context of RFCs and navi
 the RFC series. All three tags can only be used to reference other RFCs (and not as
 reference to external sources).
 
-As today with "updates" none of the new tags makes the extended/amended
+As today with "updates", none of the new tags makes the extended/amended
 RFC invalid. An implementation that conforms to the amended RFC still conforms
 to that RFC, even when an amendment is published. However, an implementation
-can, and hopefully should, of course be updates to also conform to the new RFC 
+can, and hopefully should, of course be updated to also conform to the new RFC 
 with the amendment. If only conformance to the new RFC is desired, obsoleting
-the respective RFC with a new full specification may be more appropriate.
+the respective RFC with a new full (bis) specification may be more appropriate and
+should be consider instead.
 
 This document does not impose any restrictions on the status or maturity level of
 the RFC that uses these new tags in relation the RFC that gets amended/extended.
