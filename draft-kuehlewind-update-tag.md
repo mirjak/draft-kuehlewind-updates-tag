@@ -113,13 +113,22 @@ implement.
 See Also/See Also: This is intended as a catch-all tag where two documents are
 related loosely but do not fit either of the above categories. The main
 intention of this tag is to provide a forward reference from the existing RFC to
-the RFCs that may be of interest to read.
+the RFCs that may be of interest to read. However, it is not recommenced to
+use this tag extensively. 
 
 These three tags MUST only be used for the defined meanings, mostly with respect
 to the implication on implementation requirements. This document does
 not mandate the use of these tags if one of the described use cases apply. Tags
 are optional metadata that are useful to understand the context of RFCs and navigate
-the RFC series.
+the RFC series. All three tags can only be used to reference other RFCs (and not as
+reference to external sources).
+
+As today with "updates" none of the new tags makes the extended/amended
+RFC invalid. An implementation that conforms to the amended RFC still conforms
+to that RFC, even when an amendment is published. However, an implementation
+can, and hopefully should, of course be updates to also conform to the new RFC 
+with the amendment. If only conformance to the new RFC is desired, obsoleting
+the respective RFC with a new full specification may be more appropriate.
 
 This document does not impose any restrictions on the status or maturity level of
 the RFC that uses these new tags in relation the RFC that gets amended/extended.
