@@ -201,6 +201,14 @@ Further, the "updates" attribute is part of the "xml2rfc" Version 3 Vocabulary {
 Therefore an extension to {{RFC7991}} is need as well. This may be done by a future version of
 this draft or in a separate draft, e.g. with other extension or amendments to {{RFC7991}}.
 
+# Security Considerations
+
+The changes in this document do not have direct impact on the security of any protocol
+or mechanism specified in the RFC series. However, amendments or extensions can help
+to improve security or discuss security-related issues. Therefore, the use of the
+proposed tags and their clear definition can also support such RFCs in their intended
+goals regarding security.
+
 # Acknowledgments
 
 The authors would like to thank Alexey Melnikov, Alvaro Retana, Barry Leiba,
