@@ -139,11 +139,11 @@ of this document).
 
 ## Discontinuation of the Use of Updates/Updated by
 
-[NOTE: This is open for discussion and we would like opinions on 
+\[NOTE: This is open for discussion and we would like opinions on 
 whether the use of Updates needs to be discontinued for all future 
 documents or not. This requires further discussion with the 
 RFC Editor and the other stream managers to see if we can have a 
-unified policy for all streams]
+unified policy for all streams\]
 
 This document makes the updates tag obsolete for future use: it MUST NOT
 be used in new IETF stream documents.  The new tags are to be used
@@ -152,7 +152,7 @@ instead, beginning with the publication of this document as an RFC.
 However, the Updates/Updated by tag pair will remain in existing documents 
 and there is no plans to change these metadata in order to apply the new tags
 instead. Any such change would require changing/updating/amending the RFC
-carrying th "Updates" tag and building consensus for such a change might also not
+carrying the "Updates" tag and building consensus for such a change might also not
 be straight forward in all cases. Further, simply replacing the tag would any way
 not be sufficient, as also RFCs that currently do not have an updates tag would
 probably qualify to have one of the new tags defined in this document.
@@ -168,7 +168,7 @@ document revision that obsoletes the old RFC should be considered.
 
 ## Indication of Linkage in the Abstract and Introduction
 
-The RFC style guide (add ref!) recommends to indicate updates in the abstract
+The RFC style guide {{!RFC7322}} recommends to indicate updates in the abstract
 and introduction. Note that both is needed as the abstract is meant to function
 in a stand-alone fashion. This document will keep this practice for the new
 Amends/Amended by and Extends/Extended by tag pairs as well. It is further
@@ -183,7 +183,7 @@ the abstract.
 
 # Future work
 
-There will be a need to update the RFC Style Guide [RFC7322] (and specifically
+There will be a need to update the RFC Style Guide {{RFC7322}} (and specifically
 Section 4.1.4.) in order to discuss the new tags if and when this document is
 published.
 
