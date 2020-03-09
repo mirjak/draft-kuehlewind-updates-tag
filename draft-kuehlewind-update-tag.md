@@ -187,6 +187,10 @@ There will be a need to update the RFC Style Guide {{RFC7322}} (and specifically
 Section 4.1.4.) in order to discuss the new tags if and when this document is
 published.
 
+Further, the "updates" attribute is part of the "xml2rfc" Version 3 Vocabulary {{?RFC7991}}. 
+Therefore an extension to {{RFC7991}} is need as well. This may be done by a future version of
+this draft or in a separate draft, e.g. with other extension or amendments to {{RFC7991}}.
+
 # Acknowledgments
 
 The authors would like to thank Alexey Melnikov, Alvaro Retana, Barry Leiba,
