@@ -218,7 +218,7 @@ However, rather than defining three new tags, one could also just clearly define
 update tag. Still, this could also be confusing as it would not apply to RFCs that are already published.
 So re-naming and defining one tags, instead of three, would be an alternative. This one tag
 could either cover all three usages that are described in this draft or only one (probably the one
-as definded by the proposed "Amends" tag, as this is usually seen as the most important one).
+as defined by the proposed "Amends" tag, as this is usually seen as the most important one).
 
 This draft proposed three tags as those tags are considered to cover most of the usages that we
 see today for the "Updates" tag, assuming that these cases are benefiting from a forward reference
