@@ -220,7 +220,7 @@ So re-naming and defining one tags, instead of three, would be an alternative. T
 could either cover all three usages that are described in this draft or only one (probably the one
 as defined by the proposed "Amends" tag, as this is usually seen as the most important one).
 
-This draft proposed three tags as those tags are considered to cover most of the usages that we
+This draft proposes three tags as those tags are considered to cover most of the usages that we
 see today for the "Updates" tag, assuming that these cases are benefiting from a forward reference
 of an already published RFC to a new RFC. Especially separating changes to an existing RFC, as often done
 by use of the OLD/NEW notation, from extension/additions to an RFC is one of the main confusion and 
