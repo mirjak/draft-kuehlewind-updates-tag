@@ -208,7 +208,7 @@ the "Updates" tag is currently undefined which causes confusion due to various d
 applied in different group and after all a waste of time in recurring discussion about using
 or not using the tag.
 
-Alternatively, in order to solely solve the problem of avoiding unnessecariy discussion time, it would
+Alternatively, in order to solely solve the problem of avoiding unnecessary discussion time, it would
 also be possible to document that the "Updates" tag is undefined and as such there are no 
 strict rules about applying it or any implications of using it. This was proposed by the IESG
 providing an IESG statement for community discussion and lead to community feedback indicating 
