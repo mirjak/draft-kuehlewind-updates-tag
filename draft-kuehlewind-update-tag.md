@@ -201,6 +201,35 @@ Further, the "updates" attribute is part of the "xml2rfc" Version 3 Vocabulary {
 Therefore an extension to {{RFC7991}} is need as well. This may be done by a future version of
 this draft or in a separate draft, e.g. with other extension or amendments to {{RFC7991}}.
 
+# Alternative Approaches
+
+This document proposes three new meta data tag pairs to address the problem that the use of
+the "Updates" tag is currently undefined which causes confusion due to various different practices
+applied in different group and after all a waste of time in recurring discussion about using
+or not using the tag.
+
+Alternatively, in order to solely solve the problem of avoiding unnessecariy discussion time, it would
+also be possible to document that the "Updates" tag is undefined and as such there are no 
+strict rules about applying it or any implications of using it. This was proposed by the IESG
+providing an IESG statement for community discussion and lead to community feedback indicating 
+that this solution is not preferred.
+
+However, rather than defining three new tags, one could also just clearly define the meaning of the existing
+update tag. Still, this could also be confusing as it would not apply to RFCs that are already published.
+So re-naming and defining one tags, instead of three, would be an alternative. This one tag
+could either cover all three usages that are described in this draft or only one (probably the one
+as defined by the proposed "Amends" tag, as this is usually seen as the most important one).
+
+This draft proposed three tags as those tags are considered to cover most of the usages that we
+see today for the "Updates" tag, assuming that these cases are benefiting from a forward reference
+of an already published RFC to a new RFC. Especially separating changes to an existing RFC, as often done
+by use of the OLD/NEW notation, from extension/additions to an RFC is one of the main confusion and 
+discussion points and therefore this draft proposes different tags for it. However, if it is observed that
+not all proposed tags are actively used in future, or their usage is still not sufficiently clear,
+it should be considered to deprecate the unused tags and therefore restrict forward references to
+only some of the identified usages.
+
+
 # Security Considerations
 
 The changes in this document do not have direct impact on the security of any protocol
