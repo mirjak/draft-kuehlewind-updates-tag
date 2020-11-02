@@ -224,7 +224,7 @@ This draft proposed three tags as those tags are considered to cover most of the
 see today for the "Updates" tag, assuming that these cases are benefiting from a forward reference
 of an already published RFC to a new RFC. Especially separating changes to an existing RFC, as often done
 by use of the OLD/NEW notation, from extension/additions to an RFC is one of the main confusion and 
-discussion points and therefore this draft proposes different tags for it. However, if it shows that
+discussion points and therefore this draft proposes different tags for it. However, if it is observed that
 not all proposed tags are actively used in future, or their usage is still not sufficiently clear,
 it should be considered to deprecate the unused tags and therefore restrict forward references to
 only some of the identified usages.
