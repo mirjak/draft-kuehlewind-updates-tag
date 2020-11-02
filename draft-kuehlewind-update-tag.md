@@ -215,7 +215,7 @@ providing an IESG statement for community discussion and lead to community feedb
 that this solution is not preferred.
 
 However, rather than defining three new tags, one could also just clearly define the meaning of the existing
-update tag. Stiill, this could also be confusing as it would not apply to RFCs that are already published.
+update tag. Still, this could also be confusing as it would not apply to RFCs that are already published.
 So re-naming and defining one tags, instead of three, would be an alternative. This one tag
 could either cover all three usages that are described in this draft or only one (probably the one
 as definded by the proposed "Amends" tag, as this is usually seen as the most important one).
