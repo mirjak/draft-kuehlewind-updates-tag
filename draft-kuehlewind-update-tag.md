@@ -169,13 +169,14 @@ instead, beginning with the publication of this document as an RFC.
 
 However, the Updates/Updated by tag pair will remain in existing documents 
 and there is no plans to change these metadata in order to apply the new tags
-instead. Any such change would require changing/updating/amending the RFC
-carrying the "Updates" tag and building consensus for such a change might also not
-be straight forward in all cases. Further, simply replacing the tag would in any way
+instead. While it would be possible to change the "Updated by" tag in the metadata
+without republishing the updating RFC, the mapping to either "Amended by", "Extended
+by", or "See also" is not always straight forward and as such would require building
+consensus for each RFC separately. Further, simply replacing the tag would in any way
 not be sufficient, as also RFCs that currently do not have an updates tag would
 probably qualify to have one of the new tags defined in this document.
 
-## Amendments
+## Formating Style of Amendments
 
 This document does not impose any requirements on the form of the amendment
 made. Some RFCs use and OLD/NEW style to highlight actual text changes others
