@@ -1,12 +1,11 @@
 ---
+docname: draft-kuehlewind-update-tag-latest
 title: Definition of new tags for relations between RFCs
 abbrev: New Tag Definitions
-docname: draft-kuehlewind-update-tag-latest
-date:
+date: {DATE}
 category: bcp
 
 ipr: trust200902
-keyword: Internet-Draft
 
 stand_alone: yes
 pi: [toc, sortrefs, symrefs]
