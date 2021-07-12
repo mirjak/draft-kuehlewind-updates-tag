@@ -125,7 +125,7 @@ the RFC series. All three tags can only be used to reference other RFCs (and not
 reference to external sources).
 
 If a new RFC amends an old RFC while also defining an extension, usually it is 
-sufficient to use the "Amends" tag, however, both tags could be used as well.
+sufficient to use the "Amends" tag. However, both tags could be used as well.
 In any case, it is more important to explain clearly in the abstract what
 is amended/extended by the new RFC (see section {{abstract}}).
 
