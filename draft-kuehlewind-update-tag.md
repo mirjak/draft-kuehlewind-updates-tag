@@ -54,18 +54,19 @@ link to the new RFC. However, this tag pair is not well-defined and therefore it
 is currently used for multiple different purposes, which leads to confusion about
 the actual meaning of this tag and inconsistency in its use.
 
-The "Updates/Updates by" tag pair is currently used by different working groups and
-different areas, which tend to apply different meanings to it. They also differ greatly 
-about the obligations on the implementors of the Updated RFC. While updating an RFC never
+The "Updates/Updates by" tag pair is currently used consistently as different working
+groups or areas tend to apply different meanings to it. Opinions also differ greatly 
+about the obligations on implementors for the updated RFC. While updating an RFC never
 makes the updated RFC invalid, updates can contain bug fixes or critical changes.
 Some groups apply the update tag only to these kind of changes with the
-expectation that new implementors are also obliged to implement this new
-RFC. Some other groups use the update tag to define optional extensions or use of extension
-points in the current protocol. This disconnect leads to a situation where it is desirable 
-to add a "mandatory-to-implement" indication to an existing RFC.
+expectation that new implementions are also obliged to implement the new
+updating RFC. Some other groups use the update tag to define optional extensions
+or new uses of extension points in the current protocol. This disconnect leads to a
+situation where it is desirable to add a "mandatory-to-implement" indication to an
+existing RFC.
 
 Groups or individuals that apply such restrictive conditions to the Updates tag,
-consequently usually don't use the update tag for any extensions or addition to
+consequently usually do not use the update tag for any extensions or addition to
 a protocol. However, as there is no other way in the current metadata scheme to
 link a new RFC to an existing RFC, not using the Updates tag makes it harder to
 find these new RFCs. While implementors might well benefit from some
@@ -74,7 +75,7 @@ or, in the worst case, implement an alternate mechanism instead.
 
 Currently the Updates/Updated by tag pair mainly provides a way to link two
 documents. The cases mentioned above clearly benefit from such a linkage
-which the expectation that readers of one RFC as least look or also read the other
+which the expectation that readers of upadted RFC as least look or also read the updating
 RFC. Additionally, there are more cases where such a linkage could be useful to improve
 awareness of some newer related technology without providing any indication on the 
 importance of the linked document. As the conditions for the use of the Updates tag 
@@ -131,11 +132,18 @@ with the amendment. If only conformance to the new RFC is desired, obsoleting
 the respective RFC with a new full (bis) specification may be more appropriate and
 should be consider instead.
 
+### Cross-stream use and maturity levels
+
 This document does not impose any restrictions on the status or maturity level of
 the RFC that uses these new tags in relation the RFC that gets amended/extended.
 Further, no restrictions are made on the use of these tags across RFC streams.
+
 However, it is expected that some cases are less likely, e.g. an IETF-stream
-RFC gets amended by an RFC from another stream. Examples exist where non
+RFC gets amended by an RFC from another stream. For amendments that effectively
+change the orginially RFC is is expected that the same consensus process is applied.
+This document does not speicify any detailed process requirements on how this is achieved.
+
+Examples exist where non
 IETF-stream documents update IETF-stream documents. However, these updates usually
 utilize an existing extension point and therefore the use of "Extends" would be expected
 in future, e.g. RFC 3579 (RADIUS Support For EAP) which is a document in the
@@ -163,7 +171,7 @@ However, the Updates/Updated by tag pair will remain in existing documents
 and there is no plans to change these metadata in order to apply the new tags
 instead. Any such change would require changing/updating/amending the RFC
 carrying the "Updates" tag and building consensus for such a change might also not
-be straight forward in all cases. Further, simply replacing the tag would any way
+be straight forward in all cases. Further, simply replacing the tag would in any way
 not be sufficient, as also RFCs that currently do not have an updates tag would
 probably qualify to have one of the new tags defined in this document.
 
@@ -232,11 +240,27 @@ only some of the identified usages.
 
 # Security Considerations
 
-The changes in this document do not have direct impact on the security of any protocol
+The changes in this document do not have directly impact the security of any protocol
 or mechanism specified in the RFC series. However, amendments or extensions can help
 to improve security or discuss security-related issues. Therefore, the use of the
 proposed tags and their clear definition can also support such RFCs in their intended
 goals regarding security.
+
+If a document is amended, it is expected that the same consensus process is used as for
+the original document as an amended can be see as an actual change of the original document.
+For extension points usually the orginially specification also defines requirement for an
+extension mechanism to be used, e.g. in form of policy for IANA registries. Of course,
+the requirement must be considered when extending a protocol.
+
+There is a risk that this experiment fails by either not seeing adoption from the community
+or not addressing the discussed problems sufficiently (ambiguity of use, implications for
+implementations). However, it is not expected that the proposed tags will make these problem worse.
+In the worst case, if the experiment is decided to be reverted in future and the Updates tag
+should be used instead again, this will likely not make the situation worse or more confusing
+than it already is either. Maybe this effort is than seen as a waste of time but the same recurring
+discussions about using or not using the Updates tag (especially during IESG review but also
+before that in the working group discussion) are a waste of time as well.
+
 
 # Acknowledgments
 
