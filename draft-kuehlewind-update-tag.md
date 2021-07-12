@@ -124,6 +124,11 @@ are optional metadata that are useful to understand the context of RFCs and navi
 the RFC series. All three tags can only be used to reference other RFCs (and not as
 reference to external sources).
 
+If a new RFC amends an old RFC while also defining an extension, usually it is 
+sufficient to use the "Amends" tag, however, both tags could be used as well.
+In any case, it is more important to explain clearly in the abstract what
+is amended/extended by the new RFC (see section {{abstract}}).
+
 As today with "updates", none of the new tags makes the extended/amended
 RFC invalid. An implementation that conforms to the amended RFC still conforms
 to that RFC, even when an amendment is published. However, an implementation
@@ -185,7 +190,7 @@ However, this document does recommend to use the OLD/NEW rather for smaller and
 a limited number of changes, while if larger or many changes are needed, a new
 document revision that obsoletes the old RFC should be considered.
 
-## Indication of Linkage in the Abstract and Introduction
+## Indication of Linkage in the Abstract and Introduction {#abstract}
 
 The RFC style guide {{!RFC7322}} recommends to indicate updates in the abstract
 and introduction. Note that both is needed as the abstract is meant to function
