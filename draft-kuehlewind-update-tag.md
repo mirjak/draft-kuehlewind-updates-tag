@@ -182,12 +182,15 @@ probably qualify to have one of the new tags defined in this document.
 
 ## Formating Style of Amendments
 
-This document does not impose any requirements on the form of the amendment
-made. Some RFCs use and OLD/NEW style to highlight actual text changes others
-simply describe the changes in text. Both can make sense in certain situation.
-However, this document does recommend to use the OLD/NEW rather for smaller and
-a limited number of changes, while if larger or many changes are needed, a new
-document revision that obsoletes the old RFC should be considered.
+Currently some RFCs use and OLD/NEW style to highlight actual text changes others
+simply describe the changes in text. 
+This document recommends the use of the OLD/NEW style in Amending RFCs for minor and
+limited number of changes. This makes the changes unambiguous and specific and also
+makes it possible for automated tools to consume
+these changes and be able to produce a marked up copy of the Amended RFC that shows
+the effect of these changes in place. 
+If extensive or large number of changes are needed, a new document revision that 
+obsoletes the old RFC might be a better option.
 
 ## Indication of Linkage in the Abstract and Introduction {#explain-in-abstract}
 
