@@ -270,5 +270,5 @@ before that in the working group discussion) are a waste of time as well.
 # Acknowledgments
 
 The authors would like to thank Alexey Melnikov, Alvaro Retana, Barry Leiba,
-Eric Vyncke, Heather Flanagan, Martin Vigoureux, Brian Carpenter and Sandy
-Ginoza for their reviews and comments that improved this document. 
+Eric Vyncke, Heather Flanagan, Martin Vigoureux, Brian Carpenter, Sandy
+Ginoza, Eric Rescorla and Robert Sparks for their reviews and comments that improved this document. 
