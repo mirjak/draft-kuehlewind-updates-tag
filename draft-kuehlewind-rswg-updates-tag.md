@@ -1,5 +1,5 @@
 ---
-docname: draft-kuehlewind-update-tag-latest
+docname: draft-kuehlewind-rswg-updates-tag-latest
 title: Definition of new tags for relations between RFCs
 abbrev: New Tag Definitions
 date: {DATE}
