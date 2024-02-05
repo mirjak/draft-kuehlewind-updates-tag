@@ -144,8 +144,8 @@ Further, no restrictions are made on the use of these tags across RFC streams.
 
 However, it is expected that some cases are less likely, e.g. an IETF-stream
 RFC gets amended by an RFC from another stream. For amendments that effectively
-change the orginially RFC is is expected that the same consensus process is applied.
-This document does not speicify any detailed process requirements on how this is achieved.
+change the originally RFC it is expected that the same consensus process is applied.
+This document does not specify any detailed process requirements on how this is achieved.
 
 Examples exist where non
 IETF-stream documents update IETF-stream documents. However, these updates usually
