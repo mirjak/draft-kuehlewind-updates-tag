@@ -54,7 +54,7 @@ is currently used for multiple different purposes, which leads to confusion abou
 the actual meaning of this tag and inconsistency in its use.
 
 The "Updates/Updates by" tag pair is currently used consistently as different working
-groups or areas tend to apply different meanings to it. Opinions also differ greatly 
+groups or areas tend to apply different meanings to it. Opinions also differ greatly
 about the obligations on implementors for the updated RFC. While updating an RFC never
 makes the updated RFC invalid, updates can contain bug fixes or critical changes.
 Some groups apply the update tag only to these kind of changes with the
@@ -76,8 +76,8 @@ Currently the Updates/Updated by tag pair mainly provides a way to link two
 documents. The cases mentioned above clearly benefit from such a linkage
 which the expectation that readers of upadted RFC as least look or also read the updating
 RFC. Additionally, there are more cases where such a linkage could be useful to improve
-awareness of some newer related technology without providing any indication on the 
-importance of the linked document. As the conditions for the use of the Updates tag 
+awareness of some newer related technology without providing any indication on the
+importance of the linked document. As the conditions for the use of the Updates tag
 are not clear, often it is not used in such cases.
 
 This document recommends the discontinuation of the use of the Updates/Updated
@@ -91,7 +91,7 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED",
 "MAY", and "OPTIONAL" in this document are to be interpreted as
 described in BCP 14 {{!RFC2119}} {{!RFC8174}} when, and only when, they
 appear in all capitals, as shown here.
-      
+
 # New Definitions
 
 Based on the problems identified above this document defines three new tag pairs
@@ -114,7 +114,7 @@ See Also/See Also: This is intended as a catch-all tag where two documents are
 related loosely but do not fit either of the above categories. The main
 intention of this tag is to provide a forward reference from the existing RFC to
 the RFCs that may be of interest to read. However, it is not recommenced to
-use this tag extensively. 
+use this tag extensively.
 
 These three tags MUST only be used for the defined meanings, mostly with respect
 to the implication on implementation requirements. This document does
@@ -123,7 +123,7 @@ are optional metadata that are useful to understand the context of RFCs and navi
 the RFC series. All three tags can only be used to reference other RFCs (and not as
 reference to external sources).
 
-If a new RFC amends an old RFC while also defining an extension, usually it is 
+If a new RFC amends an old RFC while also defining an extension, usually it is
 sufficient to use the "Amends" tag. However, both tags could be used as well.
 In any case, it is more important to explain clearly in the abstract what
 is amended/extended by the new RFC (see section {{explain-in-abstract}}).
@@ -131,7 +131,7 @@ is amended/extended by the new RFC (see section {{explain-in-abstract}}).
 As today with "updates", none of the new tags makes the extended/amended
 RFC invalid. An implementation that conforms to the amended RFC still conforms
 to that RFC, even when an amendment is published. However, an implementation
-can, and hopefully should, of course be updated to also conform to the new RFC 
+can, and hopefully should, of course be updated to also conform to the new RFC
 with the amendment. If only conformance to the new RFC is desired, obsoleting
 the respective RFC with a new full (bis) specification may be more appropriate and
 should be consider instead.
@@ -161,17 +161,17 @@ of this document).
 
 ## Discontinuation of the Use of Updates/Updated by
 
-\[NOTE: This is open for discussion and we would like opinions on 
-whether the use of Updates needs to be discontinued for all future 
-documents or not. This requires further discussion with the 
-RFC Editor and the other stream managers to see if we can have a 
+\[NOTE: This is open for discussion and we would like opinions on
+whether the use of Updates needs to be discontinued for all future
+documents or not. This requires further discussion with the
+RFC Editor and the other stream managers to see if we can have a
 unified policy for all streams\]
 
 This document makes the updates tag obsolete for future use: it MUST NOT
 be used in new IETF stream documents.  The new tags are to be used
 instead, beginning with the publication of this document as an RFC.
 
-However, the Updates/Updated by tag pair will remain in existing documents 
+However, the Updates/Updated by tag pair will remain in existing documents
 and there is no plans to change these metadata in order to apply the new tags
 instead. While it would be possible to change the "Updated by" tag in the metadata
 without republishing the updating RFC, the mapping to either "Amended by", "Extended
@@ -184,8 +184,8 @@ probably qualify to have one of the new tags defined in this document.
 
 Currently some RFCs use and OLD/NEW style to highlight actual text changes others
 simply describe the changes in text. While this document does not require a specific format of amendments,
-it recommends the use of the 
-OLD/NEW style in Amending RFCs for minor and limited number of changes. This could 
+it recommends the use of the
+OLD/NEW style in Amending RFCs for minor and limited number of changes. This could
 enable the use of automated tools in the future to produce a marked up copy of the Amended
 RFC that shows the effect of these changes in place. If extensive or a large number of
 changes are needed, a new document revision that obsoletes the old RFC might still
@@ -212,7 +212,7 @@ There will be a need to update the RFC Style Guide {{RFC7322}} (and specifically
 Section 4.1.4.) in order to discuss the new tags if and when this document is
 published.
 
-Further, the "updates" attribute is part of the "xml2rfc" Version 3 Vocabulary {{?RFC7991}}. 
+Further, the "updates" attribute is part of the "xml2rfc" Version 3 Vocabulary {{?RFC7991}}.
 Therefore an extension to {{RFC7991}} is need as well. This may be done by a future version of
 this draft or in a separate draft, e.g. with other extension or amendments to {{RFC7991}}.
 
@@ -224,9 +224,9 @@ applied in different group and after all a waste of time in recurring discussion
 or not using the tag.
 
 Alternatively, in order to solely solve the problem of avoiding unnecessary discussion time, it would
-also be possible to document that the "Updates" tag is undefined and as such there are no 
+also be possible to document that the "Updates" tag is undefined and as such there are no
 strict rules about applying it or any implications of using it. This was proposed by the IESG
-providing an IESG statement for community discussion and lead to community feedback indicating 
+providing an IESG statement for community discussion and lead to community feedback indicating
 that this solution is not preferred.
 
 However, rather than defining three new tags, one could also just clearly define the meaning of the existing
@@ -238,7 +238,7 @@ as defined by the proposed "Amends" tag, as this is usually seen as the most imp
 This draft proposes three tags as those tags are considered to cover most of the usages that we
 see today for the "Updates" tag, assuming that these cases are benefiting from a forward reference
 of an already published RFC to a new RFC. Especially separating changes to an existing RFC, as often done
-by use of the OLD/NEW notation, from extension/additions to an RFC is one of the main confusion and 
+by use of the OLD/NEW notation, from extension/additions to an RFC is one of the main confusion and
 discussion points and therefore this draft proposes different tags for it. However, if it is observed that
 not all proposed tags are actively used in future, or their usage is still not sufficiently clear,
 it should be considered to deprecate the unused tags and therefore restrict forward references to
@@ -273,4 +273,4 @@ before that in the working group discussion) are a waste of time as well.
 
 The authors would like to thank Alexey Melnikov, Alvaro Retana, Barry Leiba,
 Eric Vyncke, Heather Flanagan, Martin Vigoureux, Brian Carpenter, Sandy
-Ginoza, Eric Rescorla and Robert Sparks for their reviews and comments that improved this document. 
+Ginoza, Eric Rescorla and Robert Sparks for their reviews and comments that improved this document.
