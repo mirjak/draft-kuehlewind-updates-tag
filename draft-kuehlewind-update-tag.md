@@ -136,7 +136,7 @@ with the amendment. If only conformance to the new RFC is desired, obsoleting
 the respective RFC with a new full (bis) specification may be more appropriate and
 should be consider instead.
 
-### Cross-stream use and maturity levels
+## Cross-stream use and maturity levels
 
 This document does not impose any restrictions on the status or maturity level of
 the RFC that uses these new tags in relation the RFC that gets amended/extended.
