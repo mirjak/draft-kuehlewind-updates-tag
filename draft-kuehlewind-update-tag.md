@@ -97,23 +97,26 @@ appear in all capitals, as shown here.
 Based on the problems identified above this document defines three new tag pairs
 with the following meanings:
 
-Amends/Amended by: This tag pair is used with an amending RFC that changes the
+Amends/Amended by:
+: This tag pair is used with an amending RFC that changes the
 amended RFC. This could include bug fixes, behavior changes etc. This is
 intended to specify mandatory changes to the protocol. The goal of this tag pair
 is to signal to anyone looking to implement the amended RFC that they MUST also
 implement the amending RFC.
 
-Extends/Extended by: This tag pair is used with an extending RFC that defines an
+Extends/Extended by:
+: This tag pair is used with an extending RFC that defines an
 optional addition to the extended RFC. This can be used by documents that use
 existing extension points or clarifications that do not change existing protocol
 behavior. This signals to implementers and protocol designers that there are
 changes to the extended RFC that they need to consider but not necessarily
 implement.
 
-See Also/See Also: This is intended as a catch-all tag where two documents are
+See Also/See Also: 
+: This is intended as a catch-all tag where two documents are
 related loosely but do not fit either of the above categories. The main
 intention of this tag is to provide a forward reference from the existing RFC to
-the RFCs that may be of interest to read. However, it is not recommenced to
+the RFCs that may be of interest to read. However, it is not recommended to
 use this tag extensively.
 
 These three tags MUST only be used for the defined meanings, mostly with respect
