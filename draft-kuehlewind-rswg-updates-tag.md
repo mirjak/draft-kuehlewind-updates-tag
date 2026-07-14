@@ -53,7 +53,21 @@ link to the new RFC. However, this tag pair is not well-defined and therefore it
 is currently used for multiple different purposes, which leads to confusion about
 the actual meaning of this tag and inconsistency in its use.
 
-The "Updates/Updates by" tag pair is currently used consistently as different working
+The "updates" has been intially defined in {{?RFC2223}}:
+
+Updates:
+: To be used as a reference from a new item that cannot be used
+  alone (i.e., one that supplements a previous document), to refer
+  to the previous document.  The newer publication is a part that
+  will supplement or be added on to the existing document; e.g., an
+  addendum, or separate, extra information that is to be added to
+  the original document.
+
+While this text clearly covers the of updating RFCs that directly change
+the to be updates RFC (e.g. OLD/NEW style) documnet, it remains vagaue about
+other "extra information".
+
+Because of this vagness, the "Updates/Updates by" tag pair is currently used consistently as different working
 groups or areas tend to apply different meanings to it. Opinions also differ greatly
 about the obligations on implementors for the updated RFC. While updating an RFC never
 makes the updated RFC invalid, updates can contain bug fixes or critical changes.
