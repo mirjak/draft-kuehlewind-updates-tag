@@ -227,7 +227,7 @@ Alternatively, in order to solely solve the problem of avoiding unnecessary disc
 also be possible to document that the "Updates" tag is undefined and as such there are no
 strict rules about applying it or any implications of using it. This was proposed by the IESG
 providing an IESG statement for community discussion and lead to community feedback indicating
-that this solution is not preferred.
+that this solution is not preferred (see [https://mailarchive.ietf.org/arch/msg/ietf/-1u_1-peHKAmUDuLyGAJYu0fPCE/]).
 
 However, rather than defining three new tags, one could also just clearly define the meaning of the existing
 update tag. Still, this could also be confusing as it would not apply to RFCs that are already published.
