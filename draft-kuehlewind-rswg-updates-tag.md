@@ -99,10 +99,12 @@ with the following meanings:
 
 Amends/Amended by:
 : This tag pair is used with an amending RFC that changes the
-amended RFC. This could include bug fixes, behavior changes etc. This is
-intended to specify mandatory changes to the protocol. The goal of this tag pair
-is to signal to anyone looking to implement the amended RFC that they MUST also
-implement the amending RFC.
+amended RFC. This could include bug fixes, behavior changes etc. These changes
+are seen as mandatory changes to the protocol for interoperability. The goal of this tag pair
+is to signal to anyone looking to implement the amended RFC that they are expected to also
+implement the amending RFC to achive interoperability with common implementations.
+Changes that directly change the existing RFC but in an optional way (including e.g. use of a reserved
+flag) should not use this tag.
 
 Extends/Extended by:
 : This tag pair is used with an extending RFC that defines an
@@ -110,7 +112,9 @@ optional addition to the extended RFC. This can be used by documents that use
 existing extension points or clarifications that do not change existing protocol
 behavior. This signals to implementers and protocol designers that there are
 changes to the extended RFC that they need to consider but not necessarily
-implement.
+implement. Extension mechanisms that use a registry may use this tag if a direct
+forward reference is considered valuable in addition but
+usually the registry already provides a way to find the extensions when needed.
 
 See Also/See Also:
 : This is intended as a catch-all tag where two documents are
