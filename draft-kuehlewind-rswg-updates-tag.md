@@ -136,7 +136,7 @@ with the amendment. If only conformance to the new RFC is desired, obsoleting
 the respective RFC with a new full (bis) specification may be more appropriate and
 should be consider instead.
 
-### Cross-stream use and maturity levels
+## Cross-stream use and maturity levels
 
 This document does not impose any restrictions on the status or maturity level of
 the RFC that uses these new tags in relation the RFC that gets amended/extended.
@@ -182,10 +182,10 @@ probably qualify to have one of the new tags defined in this document.
 
 ## Formating Style of Amendments
 
-Currently some RFCs use and OLD/NEW style to highlight actual text changes others
+Currently some RFCs use the OLD/NEW style to highlight actual text changes others
 simply describe the changes in text. While this document does not require a specific format of amendments,
 it recommends the use of the
-OLD/NEW style in Amending RFCs for minor and limited number of changes. This could
+OLD/NEW style in amending RFCs for minor and limited number of changes. This could
 enable the use of automated tools in the future to produce a marked up copy of the Amended
 RFC that shows the effect of these changes in place. If extensive or a large number of
 changes are needed, a new document revision that obsoletes the old RFC might still
